@@ -2,16 +2,16 @@
 
 error_reporting(0);
 include ("func.php");
-echo "\e            GOJEK VERSION 1.8.2              \n";
-echo "\e SCRIPT GOJEK AUTO CLAIM ALL PROMO BAYU DWI DIRGANTARA\n";
+echo "\e            GOJEK VERSION 1.9.0              \n";
+echo "\e GOJEK AUTO CLAIM ALL PROMO AZKACELL88\n";
 echo "\n";
 nope:
-echo "\e[?] Masukkan Nomor HP Anda : ";
+echo "\e[?] Lebokno Nomer Hpmu : ";
 $nope = trim(fgets(STDIN));
 $cek = cekno($nope);
 if ($cek == false)
     {
-    echo "\e[x] Nomor Telah Terdaftar\n";
+    echo "\e[x] Wes Kedaftar Cok\n";
 			goto nope;
     }
   else
@@ -46,7 +46,7 @@ if ($register == false)
             }else{
                 echo "\e[+] ".$claim."\n";
 				    sleep(3);
-                echo "\e[!] Trying to redeem Voucher : COBAGOCAR !\n";
+                echo "\e[!] Trying to redeem Voucher : KEALFAYUK !\n";
                 sleep(3);
                 goto ride;
             }
@@ -55,7 +55,7 @@ if ($register == false)
             if ($claim == false){
             echo "\e[!] Failed to Claim Voucher, Try to Claim Manually\n";
 			      sleep(3);
-            echo "\e[!] Trying to redeem Voucher : COBAGOCAR !\n";
+            echo "\e[!] Trying to redeem Voucher : KEALFAYUK !\n";
             sleep(3);
             }else{
                 echo "\e[+] ".$claim."\n";
