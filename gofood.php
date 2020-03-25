@@ -36,7 +36,7 @@ if ($register == false)
         }
       else
         {
-	echo "\e[!] Trying to redeem Voucher : GOFOOD022620A !\n";
+	echo "\e[!] Trying to redeem Voucher : COBAINGORIDE !\n";
         $claim = claim1($verif);
         if ($claim == false){
             echo "\e[!] Failed to Claim Voucher, Try to Claim Manually\n";
